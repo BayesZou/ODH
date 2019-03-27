@@ -43,8 +43,9 @@ class ODHFront {
             this.onSelectionEnd(e);
         }
 
-        if (e.keyCode === this.exitKey || e.charCode === this.exitKey)
-            this.popup.hide();
+        // NOTE: personal usage
+        // if (e.keyCode === this.exitKey || e.charCode === this.exitKey)
+        //     this.popup.hide();
     }
 
     onDoubleClick(e) {
